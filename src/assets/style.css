@@ -173,3 +173,60 @@
 .proj6 {
     background-color: #4BA2D2;
 }
+
+.contact-container {
+    background-color: #0891b2;
+    padding: 40px 0px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.contact-info {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contact-title {
+    font-size: 46px;
+    font-weight: 500;
+}
+
+.phone-container, .email-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.phone-btn, .email-btn {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+}
+
+.contact-btns-section {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+.contact-btn {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-image-container {
+    display: flex;
+    align-items: center;
+}
+
+#footer-photo {
+    object-fit: cover;
+    width: 500px;
+    height: auto;
+}
