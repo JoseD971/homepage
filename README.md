@@ -2,7 +2,7 @@
 
 ## Description
 
-This project implements a basic **homepage** consisting of three main sections: About, Projects, and Contact. The layout features a clean, structured design with responsive styling to ensure optimal viewing across different screen sizes. Key elements include flexible grid and flexbox layouts and media queries for adaptive spacing and sizing.
+This project implements a basic **homepage** consisting of three main sections: About, Projects, and Contact. The layout features a clean, structured design with responsive styling to ensure optimal viewing across different screen sizes. Key elements include flexible grid and flexbox layouts, media queries for adaptive spacing and sizing, and the use of CSS variables defined in `:root` for easy theming and maintenance.
 
 ---
 
