@@ -5,6 +5,13 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.about-section, .projects-section, .contact-section {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
 .intro-shape {
     width: 100%;
     height: 500px;
@@ -18,7 +25,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding-top: 80px;
+    padding-bottom: 100px;
 }
 
 .main-photo-container {
@@ -47,27 +55,121 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-    max-width: 600px;
     background-color: #ffffff;
     box-shadow: 14px 11px 6px -7px rgba(0,0,0,0.38);
     padding: 35px 25px;
 }
 
-.about .description {
+.about h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.about .description, .project-desc {
     color: #646464;
     line-height: 25px;
 }
 
-.about-links-section {
+.about-btns-section {
     display: flex;
     align-self: flex-end;
     gap: 15px;
 }
 
-.about-link {
+.about-btn {
     width: 30px;
     height: 30px;
+}
+
+[class*="-btn"] {
     border: none;
     background: none;
     cursor: pointer;
+}
+
+.projects-section {
+    padding-bottom: 100px;
+}
+
+.projects-section-title {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.projects-items {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    row-gap: 30px;
+    column-gap: 40px;
+}
+
+.project-card {
+    box-shadow: 5px 6px 12px -2px rgba(0,0,0,0.51);
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+    min-height: 350px;
+}
+
+.project-image {
+    grid-row: 1 / 2;
+    position: relative;
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-image p {
+    color: #ffffff;
+    font-size: 40px;
+    white-space: wrap;
+    text-align: center;
+}
+
+.project-content {
+    grid-row: 2 / 3;
+    padding: 15px;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.project-name {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.project-btn {
+    width: 20px;
+    height: 20px;
+}
+
+.proj1 {
+    background-color: #9E1C1C;
+}
+
+.proj2 {
+    background-color: #7D75C6;
+}
+
+.proj3 {
+    background-color: #5E8F4D;
+}
+
+.proj4 {
+    background-color: #C363B4;
+}
+
+.proj5 {
+    background-color: #D88F39;
+}
+
+.proj6 {
+    background-color: #4BA2D2;
 }
